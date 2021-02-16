@@ -1,0 +1,51 @@
+// THIS PART IS NO LONGER IN USE /!\
+
+// const Pool = require('pg-pool');
+// const datas = require('./datas');
+
+// const config = {
+//   user: 'uganvnxtsalzdc',
+//   password: '78d119172a7ef907f3c5a5fda1353044f8cbbda56a940b19d2525752afcda31d',
+//   host: 'ec2-52-30-161-203.eu-west-1.compute.amazonaws.com',
+//   port: '5432',
+//   database: 'dh4d2mem19cm6',
+//   ssl: { rejectUnauthorized: false }
+// };
+
+// let client;
+// if (process.env.NODE_ENV && process.env.NODE_ENV === "production") { 
+//     client = new Pool(config);
+// } else { 
+//     client = new Pool(config);
+// };
+
+// (async () => {
+    // await client.connect();
+
+    // Make sur to start with an empty table
+    // for (const table in datas) {
+    //      console.log(`DELETE FROM "${table}";`);
+    // };
+    
+
+    // then loop on the data provided by faker
+//    for (const table in datas) {
+//        for (const element of datas[table]) {
+//            const sql = [];
+//            const propSql = [];
+//            let index = 1;
+//            const elementProps = [];
+//            for (const prop in element) {
+//                elementProps.push(element[prop]);
+//                sql.push('$'+ index);
+//                propSql.push(prop);
+//                index++;
+//            }
+//            console.log(`
+//                INSERT INTO ${table} (${propSql.join(', ')}) VALUES (${sql.join(', ')});
+//            `, elementProps);
+//        };
+//     };
+
+    // await client.end();
+// })();

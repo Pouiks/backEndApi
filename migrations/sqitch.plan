@@ -1,0 +1,13 @@
+%syntax-version=1.0.0
+%project=meetmypet
+%uri=postgresql://adminmeetmypet:meetmypet@localhost/meetmypet
+
+create_tables 2020-10-14T14:03:19Z <theo.provost@gemail.com> # Tables initialization
+checks 2020-10-14T15:07:48Z Iris <iris.a.orsini@gemail.com> # Checks constraints on tables
+functions/insert_animal 2020-10-16T14:25:30Z Iris <iris.a.orsini@gemail.com> # Function to insert an animal
+functions/insert_group 2020-10-16T14:28:27Z Iris <iris.a.orsini@gemail.com> # Function to insert a group
+functions/insert_user 2020-10-16T14:36:00Z Iris <iris.a.orsini@gemail.com> # Function to insert a user
+functions/insert_message 2020-10-19T09:53:17Z Iris <iris.a.orsini@gemail.com> # Function to insert a message
+functions/update_animal 2020-10-19T10:13:56Z Iris <iris.a.orsini@gemail.com> # Function to update an animal
+functions/update_group 2020-10-19T10:14:18Z Iris <iris.a.orsini@gemail.com> # Function to update a group
+functions/update_user 2020-10-19T10:14:54Z Iris <iris.a.orsini@gemail.com> # Function to update a user
